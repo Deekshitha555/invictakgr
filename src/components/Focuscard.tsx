@@ -50,9 +50,14 @@ export function FocusCardsDemo() {
       title: "Sunny",
       src: "/images/testimonials/sunny.jpg",
       designation:"Cultural Convenor",
+      contact:"9347284695"
+    },
+    {
+      title: "Parasu Deekshitha",
+      src: "/images/testimonials/deekshitha.png",
+      designation:"Designer and developer",
       contact:"9705273778"
     },
-    
   ];
 
   return <FocusCards cards={cards} />;
