@@ -44,19 +44,19 @@ export function FocusCardsDemo() {
       title: "Shravya Verma",
       src: "/images/testimonials/shravya.jpg",
       designation:"Cultural Convenor",
-      contact:"9705273778"
+      contact:"7013931616"
     },
     {
       title: "Sunny",
       src: "/images/testimonials/sunny.jpg",
       designation:"Cultural Convenor",
-      contact:"9347284695"
+      contact:"9121320833"
     },
     {
       title: "Parasu Deekshitha",
       src: "/images/testimonials/deekshitha.png",
-      designation:"Designer and developer",
-      contact:"9705273778"
+      designation:"Designer and Developer",
+      contact:"9347284695"
     },
   ];
 
