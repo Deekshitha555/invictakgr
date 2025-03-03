@@ -6,8 +6,10 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useState, useEffect } from "react";
-
-const Kabaddi = () => {
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import Separator from "@/components/Separator";
+const Carroms = () => {
   const [isLoading, setIsLoading] = useState(true);
   const router = useRouter();
 
@@ -18,30 +20,30 @@ const Kabaddi = () => {
   }, []);
   const categories = [
     {
-      category: "Team",
-      details: [
-        "Note: Participants can be both men and women",
-        "Registration Fee: ₹2000/-",
-      ],
-      link: "/ticket"
-    },
+        category: "DJ Night",
+        details: [
+          "Date: 27th march ",
+          "Entry for both men & women",
+          "Entry Fee: ₹99/-",
+        ],
+        link: "/ticket"
+      },
   ];
-  const coordinators = [
-    { name: "Kondagari Jahanavi", role: "Sports Convenor", phone: "9346319192" },
-    { name: "Talari Rakesh", role: "Sports Convenor", phone: "6300244591" },
-  ];
+
   return (
     <div className="relative min-h-screen flex flex-col items-center text-white overflow-hidden">
-      {/* Meteor Effect */}{isLoading ? (
+      {/* Meteor Effect */}
+      {isLoading ? (
         // Loading Spinner
         <div className="flex justify-center items-center min-h-screen">
           <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-yellow-500"></div>
         </div>
       ) : (
         <>
+          <Navbar/>
           <Image
-            src="/images/bgimg/bgkabaddi.jpg" // Replace with your actual logo path
-            alt="kabaddi background"
+            src="/images/bgimg/bgdjnight.jpg" // Replace with your actual logo path
+            alt="djnight"
             width={850}
             height={50}
             className="rounded-xl shadow-md object-cover lg:object-fill"
@@ -50,19 +52,9 @@ const Kabaddi = () => {
           <div className="relative z-10 p-4 sm:p-30">
             {/* Page Title */}
             <h1 className="text-4xl sm:text-5xl font-bold text-yellow-500 text-center mt-10">
-              Kabaddi
+              Dj night
             </h1>
 
-            {/* Logo Section */}
-            <div className="flex justify-center mt-6">
-              <Image
-                src="/images/outdoorgames/kabbadi.png" // Replace with your actual logo path
-                alt="Event Logo"
-                width={150}
-                height={150}
-                className="rounded-sm shadow-md"
-              />
-            </div>
 
             {/* Cards Section */}
             <motion.div
@@ -112,32 +104,13 @@ const Kabaddi = () => {
                 </Link>
               ))}
             </motion.div>
-            <div className="mt-16">
-              <h2 className="text-3xl font-bold text-yellow-400 text-center">
-                Contact Details
-              </h2>
-              <div className="mt-6 space-y-4">
-                {coordinators.map((coordinator, index) => (
-                  <div
-                    key={index}
-                    className="flex justify-between items-center bg-purple-900 p-4 rounded-lg shadow-lg w-[300px] mx-auto"
-                  >
-                    <div>
-                      <h3 className="text-lg font-semibold text-yellow-300">
-                        {coordinator.name}
-                      </h3>
-                      <p className="text-gray-200">{coordinator.role}</p>
-                    </div>
-                    <p className="text-green-400">{coordinator.phone}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
           </div>
+          <Separator/>
+          <Footer/>
         </>
       )}
     </div>
   );
 };
 
-export default Kabaddi;
+export default Carroms;

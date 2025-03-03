@@ -18,7 +18,7 @@ const Music = () => {
   }, []);
   const categories = [
     {
-      category: "Unplugged(Solo)",
+      category: "Raaga Ratnam(Solo)",
       details: [
         "Time duration: 3-5 min",
         "Choice of song: Open",
@@ -34,12 +34,17 @@ const Music = () => {
         "Time duration: 10-12 min",
         "Choice of song: Open",
         "Note: Participants has to get their own instruments",
-        "Registration Fee: ₹800/-",
+        "Registration Fee: ₹1000/-",
       ],
       link: "/ticket"
     },
   ];
-
+  const coordinators = [
+    { name: "Chandu", role: "President", phone: "8790855162" },
+    { name: "Vishnu Teja", role: "Vice President", phone: "9866199007" },
+    { name: "Sunny", role: "Cultural Convenor", phone: "9121320833" },
+    { name: "Shravya Verma", role: "Cultural Convenor", phone: "7013931616" },
+  ];
   return (
     <div className="relative min-h-screen flex flex-col items-center text-white overflow-hidden">
       {/* Meteor Effect */}
@@ -123,6 +128,27 @@ const Music = () => {
                 </Link>
               ))}
             </motion.div>
+            <div className="mt-16">
+              <h2 className="text-3xl font-bold text-yellow-400 text-center">
+                Contact Details
+              </h2>
+              <div className="mt-6 space-y-4">
+                {coordinators.map((coordinator, index) => (
+                  <div
+                    key={index}
+                    className="flex justify-between items-center bg-purple-900 p-4 rounded-lg shadow-lg w-[300px] mx-auto"
+                  >
+                    <div>
+                      <h3 className="text-lg font-semibold text-yellow-300">
+                        {coordinator.name}
+                      </h3>
+                      <p className="text-gray-200">{coordinator.role}</p>
+                    </div>
+                    <p className="text-green-400">{coordinator.phone}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </>
       )}

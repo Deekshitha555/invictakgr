@@ -1,7 +1,7 @@
 "use client";
 import { GiChessKing, GiCardPlay } from "react-icons/gi";
 import { MdSportsTennis } from "react-icons/md";
-
+import { MdFitnessCenter } from "react-icons/md";
 import { motion } from "framer-motion";
 import UniformGrid from "./ui/uniformgrid";
 
@@ -31,7 +31,15 @@ const UniformIndoorgames = () => {
             imgAlt: "Table Tennis",
             link:"/sports/indoorgames/tabletennis"
         },
-        
+
+        {
+            title: "Dead Lift",
+            description: "Experience the thrill of speed and skill in this high-energy game.",
+            icon: <MdFitnessCenter className="text-3xl text-yellow-400" />,
+            img: "/images/outdoorgames/deadlift.jpg",
+            imgAlt: "dead lift",
+            link: "/sports/indoorgames/deadlift"
+        },
     ];
 
     return (

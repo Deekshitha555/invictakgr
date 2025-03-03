@@ -32,7 +32,12 @@ const Dramatics = () => {
       link: "/ticket"
     },
   ];
-
+  const coordinators = [
+    { name: "Karthik", role: "President", phone: "6301308494" },
+    { name: "Phani Teja ", role: "Vice President", phone: "9515580434" },
+    { name: "Sunny", role: "Cultural Convenor", phone: "9121320833" },
+    { name: "Shravya Verma", role: "Cultural Convenor", phone: "7013931616" },
+  ];
   return (
     <div className="relative min-h-screen flex flex-col items-center text-white overflow-hidden">
       {/* Meteor Effect */}
@@ -114,6 +119,27 @@ const Dramatics = () => {
                 </motion.div>
               ))}
             </motion.div>
+            <div className="mt-16">
+              <h2 className="text-3xl font-bold text-yellow-400 text-center">
+                Contact Details
+              </h2>
+              <div className="mt-6 space-y-4">
+                {coordinators.map((coordinator, index) => (
+                  <div
+                    key={index}
+                    className="flex justify-between items-center bg-purple-900 p-4 rounded-lg shadow-lg w-[300px] mx-auto"
+                  >
+                    <div>
+                      <h3 className="text-lg font-semibold text-yellow-300">
+                        {coordinator.name}
+                      </h3>
+                      <p className="text-gray-200">{coordinator.role}</p>
+                    </div>
+                    <p className="text-green-400">{coordinator.phone}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </>
       )}

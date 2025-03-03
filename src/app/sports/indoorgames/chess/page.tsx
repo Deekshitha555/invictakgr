@@ -25,7 +25,10 @@ const Chess = () => {
       link: "/ticket"
     },
   ];
-
+  const coordinators = [
+    { name: "Kondagari Jahanavi", role: "Sports Convenor", phone: "9346319192" },
+    { name: "Talari Rakesh", role: "Sports Convenor", phone: "6300244591" },
+  ];
   return (
     <div className="relative min-h-screen flex flex-col items-center text-white overflow-hidden">
       {/* Meteor Effect */}
@@ -63,7 +66,7 @@ const Chess = () => {
 
             {/* Cards Section */}
             <motion.div
-              className="mt-10 grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
+              className="mt-10 grid gap-6 grid-cols-1 sm:grid-cols-1 lg:grid-cols-1"
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, ease: "easeOut" }}
@@ -109,6 +112,27 @@ const Chess = () => {
                 </Link>
               ))}
             </motion.div>
+            <div className="mt-16">
+              <h2 className="text-3xl font-bold text-yellow-400 text-center">
+                Contact Details
+              </h2>
+              <div className="mt-6 space-y-4">
+                {coordinators.map((coordinator, index) => (
+                  <div
+                    key={index}
+                    className="flex justify-between items-center bg-purple-900 p-4 rounded-lg shadow-lg w-[300px] mx-auto"
+                  >
+                    <div>
+                      <h3 className="text-lg font-semibold text-yellow-300">
+                        {coordinator.name}
+                      </h3>
+                      <p className="text-gray-200">{coordinator.role}</p>
+                    </div>
+                    <p className="text-green-400">{coordinator.phone}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </>
       )}

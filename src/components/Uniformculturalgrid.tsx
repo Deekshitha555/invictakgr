@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { FaRunning, FaMusic, FaPaintBrush, FaCamera, FaTheaterMasks, FaBook } from "react-icons/fa";
+import { FaRunning, FaMusic, FaPaintBrush, FaCamera, FaTheaterMasks} from "react-icons/fa";
 import UniformGrid from "./ui/uniformgrid";
 import { motion } from "framer-motion";
 import LoadingSpinner from "@/components/Loadingspinner"; // Ensure you have a spinner component
@@ -46,15 +46,7 @@ const events = [
     img: "/images/cultural/dramatics.png",
     imgAlt: "dramatix",
     link: "/cultural/dramatics",
-  },
-  {
-    title: "Literary",
-    description: "Narrate tales that touch hearts and stir minds.",
-    icon: <FaBook className="text-3xl text-orange-400" />,
-    img: "/images/cultural/storylines.png",
-    imgAlt: "storylines",
-    link: "/cultural/storylines",
-  },
+  }
 ];
 
 export default function Uniformculturalgrid() {

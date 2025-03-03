@@ -10,6 +10,7 @@ import Uniformculturalgrid from "@/components/Uniformculturalgrid";
 import UniformIndoorgames from "@/components/Uniformindoorsportsgrid";
 import Uniformoutdoorgames from "@/components/Uniformoutdoorgames";
 import LoadingSpinner from "@/components/Loadingspinner";
+import UniformDJNight from "@/components/Uniformdjnight";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -32,6 +33,8 @@ export default function Home() {
           <Separator />
           <UniformIndoorgames />
           <Separator />
+          <UniformDJNight/>
+          <Separator/>
           <FocusCardsDemo />
           <Separator />
           <InfiniteMovingCardsDemo />

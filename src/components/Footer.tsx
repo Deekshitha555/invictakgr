@@ -71,6 +71,14 @@ const Footer = () => {
                 href="/sports"
                 className="text-yellow-500 hover:text-white transition duration-300"
               >
+                Dj night
+              </a>
+            </li>
+            <li>
+              <a
+                href="/sports"
+                className="text-yellow-500 hover:text-white transition duration-300"
+              >
                 Contact Us
               </a>
             </li>

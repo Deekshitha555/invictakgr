@@ -61,6 +61,13 @@ const Navbar = () => {
               >
                 Sports
               </Link>
+              <Link
+                href="/djnight"
+                onClick={handleLinkClick}
+                className="text-white hover:text-purple-700 transition duration-300"
+              >
+                Dj night
+              </Link>
             </div>
 
             {/* Mobile Menu Button */}
@@ -104,6 +111,13 @@ const Navbar = () => {
                 className="block text-white hover:text-purple-700 px-3 py-2 rounded-md text-base font-medium"
               >
                 Sports
+              </Link>
+              <Link
+                href="/djnight"
+                onClick={handleLinkClick}
+                className="block text-white hover:text-purple-700 px-3 py-2 rounded-md text-base font-medium"
+              >
+                Dj Night
               </Link>
             </div>
           </motion.div>
