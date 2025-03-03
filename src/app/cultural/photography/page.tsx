@@ -30,7 +30,7 @@ const Pixels = () => {
         "Time duration: 72 minutes (maximum)",
         "Basic cinematography ",
         "Note: No limitation on the number of participants",
-        "Registration Fee: ₹1999/-",
+        "Registration Fee: ₹1500/-",
       ],
       link: "/ticket"
     },
