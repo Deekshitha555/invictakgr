@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import { cn } from "@/lib/utils";
-import { motion } from "framer-motion";
+
 
 type CardType = {
   title: string;
@@ -73,25 +73,8 @@ export function FocusCards({ cards }: { cards: CardType[] }) {
 
   return (
     <>
-      <div className="max-w-[100vw] md:max-w-2xl lg:max-w-[60vw] mt-20 mb-10">
-        <motion.h1
-          initial={{
-            opacity: 0,
-            y: 0,
-          }}
-          animate={{
-            opacity: 1,
-            y: 0,
-          }}
-          transition={{
-            duration: 3,
-          }}
-          className="md:text-4xl md:ml-60 text-3xl lg:text-4xl font-bold text-yellow-500 z-20 text-center"
-        >
-          Event Coordinators
-        </motion.h1>
-      </div>
-      <div className="mb-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 md:gap-10 md:ml-5 md:mr-10 px-6 sm:px-8 w-full">
+     
+      <div className="mb-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 md:gap-10 md:ml-5 md:mr-10 px-6 sm:px-8 w-full">
         {cards.map((card, index) => (
           <Card
             key={card.title}

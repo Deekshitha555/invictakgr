@@ -16,7 +16,7 @@ export function LampDemo() {
         }}
         className="bg-gradient-to-br from-slate-300 to-slate-500 sm:py-10 sm:text-2xl bg-clip-text text-center text-4xl font-medium text-transparent md:text-4xl "
       >
-       Dance, Music, Art, Drama, Storylines and Frames—A Celebration of Creativity.
+       Dance, Music, Art, Drama and Frames—A Celebration of Creativity.
       </motion.h1>
     </LampContainer>
   );

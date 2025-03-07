@@ -1,14 +1,19 @@
 import { FocusCards } from "@/components/ui/focus-cards";
-
+import { motion } from "framer-motion";
 export function FocusCardsDemo() {
   const cards = [
     {
       title: "Dr. Udaya Sri Kakarla ",
       src: "/images/testimonials/udaysrimam.jpg",
-      designation:"Dean Department of Student Affairs",
+      designation:"Dean DSA",
       contact:"9490116270"
     },
-    
+    {
+      title: "Dr. Zareena Zameer ",
+      src: "/images/testimonials/zareenamam.jpg",
+      designation:"Associate Dean DSA",
+      contact:"9490116270"
+    },
     {
       title: "Vadla Vinay Sai",
       src: "/images/testimonials/Vinay.jpg",
@@ -60,5 +65,27 @@ export function FocusCardsDemo() {
     },
   ];
 
-  return <FocusCards cards={cards} />;
+  return (
+    <>
+      <div className="max-w-[100vw] md:max-w-7xl lg:max-w-[120vw] mt-20 mb-10">
+        <motion.h1
+          initial={{
+            opacity: 0,
+            y: 0,
+          }}
+          animate={{
+            opacity: 1,
+            y: 0,
+          }}
+          transition={{
+            duration: 3,
+          }}
+          className="md:text-4xl text-3xl lg:text-6xl lg:text-center sm:text-2xl font-bold text-center text-yellow-500"
+        >
+          Event Coordinators
+        </motion.h1>
+      </div>
+      <FocusCards cards={cards} />
+    </>
+  );
 }

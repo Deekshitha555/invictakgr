@@ -34,7 +34,7 @@ const Music = () => {
         "Time duration: 10-12 min",
         "Choice of song: Open",
         "Note: Participants has to get their own instruments",
-        "Registration Fee: ₹1000/-",
+        "Registration Fee: ₹1500/-",
       ],
       link: "/ticket"
     },

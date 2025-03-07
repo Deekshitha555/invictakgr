@@ -1,7 +1,7 @@
 "use client";
 import { GiMusicalNotes } from "react-icons/gi";
 import { motion } from "framer-motion";
-import UniformGrid from "./ui/uniformgrid";
+import Uniformdjnightui from "./ui/uniformdjnightui";
 
 const UniformDJNight = () => {
   const events = [
@@ -36,7 +36,7 @@ const UniformDJNight = () => {
                    Dj Night
                 </motion.h1>
             </div>
-            <UniformGrid events={events} />
+            <Uniformdjnightui events={events} />
         </section>
     )
 }

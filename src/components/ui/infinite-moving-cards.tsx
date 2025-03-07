@@ -82,13 +82,13 @@ export const InfiniteMovingCards = ({
         {items.map((item, idx) => (
           <li
             key={idx}
-            className="w-[80vw] sm:w-[40vw] md:w-[25vw] h-[30vh] relative flex-shrink-0 rounded-lg overflow-hidden border border-gray-700"
+            className="w-[80vw] sm:w-[60vw] md:w-[25vw] h-[40vh] relative flex-shrink-0 rounded-lg overflow-hidden border border-gray-700"
           >
             <Image
               src={item.src}
               alt={`Image ${idx}`}
               fill
-              style={{ objectFit: "cover" }}
+              style={{ objectFit: "contain" }}
               priority
             />
           </li>

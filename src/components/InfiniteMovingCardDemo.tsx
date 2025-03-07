@@ -1,9 +1,27 @@
 "use client";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
-
+import { motion } from "framer-motion";
 export function InfiniteMovingCardsDemo() {
   return (
-    <div className="mt-20 mb-10 h-[20rem] rounded-md flex flex-col relative overflow-hidden w-full">
+    <div className="mt-20 mb-10 h-[30rem] rounded-md flex flex-col relative overflow-hidden w-full">
+      <div className="max-w-[100vw] md:max-w-2xl lg:max-w-[60vw] mt-5 mx-auto mb-10">
+                <motion.h1
+                    initial={{
+                        opacity: 0,
+                        y: 0,
+                    }}
+                    animate={{
+                        opacity: 1,
+                        y: 0,
+                    }}
+                    transition={{
+                        duration: 1,
+                    }}
+                    className="md:text-4xl text-3xl lg:text-6xl sm:text-2xl font-bold text-center text-yellow-500"
+                >
+                    Supporting Partners
+                </motion.h1>
+            </div>
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
@@ -12,8 +30,22 @@ export function InfiniteMovingCardsDemo() {
     </div>
   );
 }
-
 const testimonials = [
+  {
+    src:"/images/sponsors/sponsors.jpg"
+  },
+  {
+    src:"/images/sponsors/sponsors2.jpg"
+  },
+  {
+    src:"/images/sponsors/sponsors3.jpg"
+  },
+  {
+    src:"/images/sponsors/sponsors4.png"
+  },
+];
+/*
+const testimonials1 = [
   {
     src:"/images/cultural/onthebeat.png"
   },
@@ -59,4 +91,4 @@ const testimonials = [
    {
     src:"/images/indoorgames/tabletennis.png"
    },
-];
+];*/

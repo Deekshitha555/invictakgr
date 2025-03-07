@@ -68,7 +68,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="/sports"
+                href="/djnight"
                 className="text-yellow-500 hover:text-white transition duration-300"
               >
                 Dj night
