@@ -22,7 +22,7 @@ const Chess = () => {
         "Note: Participants can be both men and women",
         "Registration Fee: ₹500/-",
       ],
-      link: "https://events.studenttribe.in/cart/67cbee07884980a7269bf46f"
+      link: "https://events.studenttribe.in/event/67cbee07884980a7269bf46f"
     },
   ];
   const coordinators = [
