@@ -18,21 +18,28 @@ const Deadlift = () => {
   const categories = [
    
     {
-      category: "Solo",
+      category: "Solo(Men)",
       details: [
-        "Note: Participants can be both men and women",
-        
+        "Note: weight categories: 59,66,74,83,93",
         "Registration Fee: ₹500/-",
       ],
-      link: "https://events.studenttribe.in/event/67cbee07884980a7269bf46f"
+      link: "https://events.studenttribe.in/cart/67cbee07884980a7269bf46f"
+    },
+    {
+      category: "Solo(Women)",
+      details: [
+        " Note: No  categories",
+        "2 strong women will be elected",
+        "Registration Fee: ₹500/-",
+      ],
+      link: "https://events.studenttribe.in/cart/67cbee07884980a7269bf46f"
     },
   ];
   const coordinators = [
+    { name: "Bharath", role: "Organizers", phone: "9390590094" },
+    { name: "Akhil", role: "Organizers", phone: "9652211185" },
     { name: "Kondagari Jahanavi", role: "Sports Convenor", phone: "9346319192" },
     { name: "Talari Rakesh", role: "Sports Convenor", phone: "6300244591" },
-    { name: "Ba", role: "Sports Convenor", phone: "6300244591" },
-    { name: "Talari Rakesh", role: "Sports Convenor", phone: "6300244591" },
-
   ];
   return (
     <div className="relative min-h-screen flex flex-col items-center text-white overflow-hidden">
