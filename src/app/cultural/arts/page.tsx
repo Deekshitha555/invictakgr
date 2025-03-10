@@ -24,7 +24,7 @@ const Palette = () => {
         "Note: Team of 3",
         "Registration Fee: ₹250/-",
       ],
-      link: "https://events.studenttribe.in/event/67cbee07884980a7269bf46f",
+      link: "https://events.studenttribe.in/cart/67cbee07884980a7269bf46f",
     },
     {
       category: "Modern Monuments (Group)",
@@ -32,7 +32,7 @@ const Palette = () => {
         "Sketch challenge",
         "Registration Fee: ₹200/-",
       ],
-      link: "https://events.studenttribe.in/event/67cbee07884980a7269bf46f",
+      link: "https://events.studenttribe.in/cart/67cbee07884980a7269bf46f",
     },
   ];
   const coordinators = [

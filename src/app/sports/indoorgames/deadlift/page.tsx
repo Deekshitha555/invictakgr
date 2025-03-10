@@ -21,6 +21,7 @@ const Deadlift = () => {
       category: "Solo",
       details: [
         "Note: Participants can be both men and women",
+        
         "Registration Fee: ₹500/-",
       ],
       link: "https://events.studenttribe.in/event/67cbee07884980a7269bf46f"
@@ -29,6 +30,9 @@ const Deadlift = () => {
   const coordinators = [
     { name: "Kondagari Jahanavi", role: "Sports Convenor", phone: "9346319192" },
     { name: "Talari Rakesh", role: "Sports Convenor", phone: "6300244591" },
+    { name: "Ba", role: "Sports Convenor", phone: "6300244591" },
+    { name: "Talari Rakesh", role: "Sports Convenor", phone: "6300244591" },
+
   ];
   return (
     <div className="relative min-h-screen flex flex-col items-center text-white overflow-hidden">
