@@ -23,7 +23,7 @@ const Deadlift = () => {
         "Note: Participants can be both men and women",
         "Registration Fee: ₹500/-",
       ],
-      link: "/ticket"
+      link: "https://events.studenttribe.in/cart/67cbee07884980a7269bf46f"
     },
   ];
   const coordinators = [

@@ -25,7 +25,7 @@ const Onthebeat = () => {
         "Participants are supposed to get their music track",
         "Registration Fee: ₹200/-",
       ],
-      link: "/ticket"
+      link: "https://events.studenttribe.in/cart/67cbee07884980a7269bf46f"
     },
     {
       category: "Duo/Duet",
@@ -35,7 +35,7 @@ const Onthebeat = () => {
         "Participants are supposed to get their music track",
         "Registration Fee: ₹300/-",
       ],
-      link: "/ticket"
+      link: "https://events.studenttribe.in/cart/67cbee07884980a7269bf46f"
     },
     {
       category: "Group (3-7)",
@@ -45,7 +45,7 @@ const Onthebeat = () => {
         "Participants are supposed to get their music track",
         "Registration Fee: ₹500/- (Per Group)",
       ],
-      link: "/ticket"
+      link: "https://events.studenttribe.in/cart/67cbee07884980a7269bf46f"
     },
   ];
   const coordinators = [

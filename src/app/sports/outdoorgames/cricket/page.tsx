@@ -25,7 +25,7 @@ const Cricket = () => {
         "Note: Participants has to be in the color dress",
         "Registration Fee: ₹4500/-",
       ],
-      link: "/ticket"
+      link: "https://events.studenttribe.in/cart/67cbee07884980a7269bf46f"
     },
   ];
   const coordinators = [

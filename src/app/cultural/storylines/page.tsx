@@ -25,7 +25,7 @@ const Stroylines = () => {
         "Note: Participants has to get their own music tracks if required",
         "Registration Fee: ₹200/-",
       ],
-      link: "/ticket"
+      link: "https://events.studenttribe.in/cart/67cbee07884980a7269bf46f"
     },
     {
       category: "Battle of Bands(group)",
@@ -35,7 +35,7 @@ const Stroylines = () => {
         "Note: Participants has to get their own instruments",
         "Registration Fee: ₹600/-",
       ],
-      link: "/ticket"
+      link: "https://events.studenttribe.in/cart/67cbee07884980a7269bf46f"
     },
   ];
 

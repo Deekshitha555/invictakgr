@@ -22,17 +22,17 @@ const Palette = () => {
       details: [
         "Painting with only one color",
         "Note: Team of 3",
-        "Registration Fee: ₹249/-",
+        "Registration Fee: ₹250/-",
       ],
-      link: "/ticket",
+      link: "https://events.studenttribe.in/cart/67cbee07884980a7269bf46f",
     },
     {
       category: "Modern Monuments (Group)",
       details: [
         "Sketch challenge",
-        "Registration Fee: ₹199/-",
+        "Registration Fee: ₹200/-",
       ],
-      link: "/ticket",
+      link: "https://events.studenttribe.in/cart/67cbee07884980a7269bf46f",
     },
   ];
   const coordinators = [

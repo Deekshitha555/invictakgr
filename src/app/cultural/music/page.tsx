@@ -24,9 +24,9 @@ const Music = () => {
         "Choice of song: Open",
         "Original Song Compositions are welcomed",
         "Note: Participants has to get their own music tracks if required",
-        "Registration Fee: ₹200/-",
+        "Registration Fee: ₹250/-",
       ],
-      link: "/ticket"
+      link: "https://events.studenttribe.in/cart/67cbee07884980a7269bf46f"
     },
     {
       category: "Battle of Bands(Group)",
@@ -36,7 +36,7 @@ const Music = () => {
         "Note: Participants has to get their own instruments",
         "Registration Fee: ₹1500/-",
       ],
-      link: "/ticket"
+      link: "https://events.studenttribe.in/cart/67cbee07884980a7269bf46f"
     },
   ];
   const coordinators = [
