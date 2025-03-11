@@ -21,7 +21,7 @@ const Carroms = () => {
       details: [
         "Registration Fee: ₹500/-",
       ],
-      link: "https://events.studenttribe.in/cart/67cbee07884980a7269bf46f"
+      link: "https://forms.gle/V6Ynp1izwb93dsZH7"
     }
   ];
   const coordinators = [
