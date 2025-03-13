@@ -17,19 +17,12 @@ const Carroms = () => {
   }, []);
   const categories = [
     {
-      category: "Solo",
-      details: [
-        "Entry Fee: ₹50/-",
-      ],
-      link: "/ticket"
-    },
-    {
       category: "Squad",
       details: [
-        "Note: Team size should be 4",
+        "Note: Team size should be 3 or 4 only",
         "Entry Fee: ₹200/-",
       ],
-      link: "/ticket"
+      link: "https://docs.google.com/forms/d/e/1FAIpQLSecfgUkf7fZNvFJ2u73dJYZKJr0YG3nQktwkMCyAj7IJQVSPA/viewform?usp=sharing"
     },
   ];
   const coordinators = [

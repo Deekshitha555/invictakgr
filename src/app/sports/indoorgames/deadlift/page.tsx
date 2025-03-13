@@ -20,7 +20,7 @@ const Deadlift = () => {
     {
       category: "Solo(Men)",
       details: [
-        "Note: weight categories: 59,66,74,83,93",
+        "Note: weight categories: 59,66,74,83,93,93+",
         "Registration Fee: ₹500/-",
       ],
       link: "https://forms.gle/z7g4osrTAnEwBwBa9"
