@@ -34,7 +34,7 @@ const Music = () => {
         "Time duration: 10-12 min",
         "Choice of song: Open",
         "Note: Participants has to get their own instruments",
-        "Registration Fee: ₹1500/-",
+        "Registration Fee: ₹1000/-",
       ],
       link: "https://events.studenttribe.in/cart/67cbee07884980a7269bf46f"
     },
