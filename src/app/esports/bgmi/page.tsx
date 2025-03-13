@@ -34,7 +34,7 @@ const Carroms = () => {
   ];
   const coordinators = [
     { name: "Mani Deepankar", role: "E-sports convenors", phone: "6303970151" },
-    { name: "Manoj", role: "E-sports convenors", phone: "9848340328" },
+    { name: "Manoj", role: "Event Coordinator", phone: "9848340328" },
   ];
   return (
     <div className="relative min-h-screen flex flex-col items-center text-white overflow-hidden">
