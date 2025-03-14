@@ -21,7 +21,7 @@ const Dramatics = () => {
         "Time duration: 10 min",
         "Registration Fee: ₹200/-",
       ],
-      link: "https://events.studenttribe.in/cart/67cbee07884980a7269bf46f"
+      link: "https://events.studenttribe.in/event/67cbee07884980a7269bf46f"
     },
     {
       category: "Skit (Group)",
@@ -29,7 +29,7 @@ const Dramatics = () => {
         "Time duration: 15-20 min",
         "Registration Fee: ₹500/-",
       ],
-      link: "https://events.studenttribe.in/cart/67cbee07884980a7269bf46f"
+      link: "https://events.studenttribe.in/event/67cbee07884980a7269bf46f"
     },
   ];
   const coordinators = [

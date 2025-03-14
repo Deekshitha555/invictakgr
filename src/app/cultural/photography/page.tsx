@@ -22,7 +22,7 @@ const Pixels = () => {
         "Note: Capture moments of invicta",
         "Registration Fee: ₹100/-",
       ],
-      link: "https://events.studenttribe.in/cart/67cbee07884980a7269bf46f"
+      link: "https://events.studenttribe.in/event/67cbee07884980a7269bf46f"
     },
     {
       category: "Short film(Group)",
@@ -32,7 +32,7 @@ const Pixels = () => {
         "Note: No limitation on the number of participants",
         "Registration Fee: ₹1500/-",
       ],
-      link: "https://events.studenttribe.in/cart/67cbee07884980a7269bf46f"
+      link: "https://events.studenttribe.in/event/67cbee07884980a7269bf46f"
     },
   ];
   const coordinators = [
