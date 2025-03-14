@@ -9,6 +9,7 @@ import { useState, useEffect } from "react";
 
 const Music = () => {
   const [isLoading, setIsLoading] = useState(true);
+  const [redirecting, setRedirecting] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
@@ -45,6 +46,12 @@ const Music = () => {
     { name: "Sunny", role: "Cultural Convenor", phone: "9121320833" },
     { name: "Shravya Verma", role: "Cultural Convenor", phone: "7013931616" },
   ];
+  const handleRedirect = (link: string) => {
+    setRedirecting(true);
+    setTimeout(() => {
+      router.push(link);
+    }, 1500); // Delay to show the message
+  };
   return (
     <div className="relative min-h-screen flex flex-col items-center text-white overflow-hidden">
       {/* Meteor Effect */}
@@ -118,7 +125,7 @@ const Music = () => {
                         ))}
                       </ul>
                       <button
-                        onClick={() => router.push(category.link)}
+                        onClick={() => handleRedirect(category.link)}
                         className="mt-4 px-4 py-2 bg-green-500 text-white font-semibold rounded-lg shadow-md hover:bg-green-800 transition-colors"
                       >
                         Register Now
@@ -149,6 +156,16 @@ const Music = () => {
                 ))}
               </div>
             </div>
+            {redirecting && (
+              <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-50">
+                <div className="text-center">
+                  <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-yellow-500 mx-auto"></div>
+                  <p className="mt-4 text-white text-lg font-semibold">
+                    Redirecting to the ticketing platform Student Tribe...
+                  </p>
+                </div>
+              </div>
+            )}
           </div>
         </>
       )}

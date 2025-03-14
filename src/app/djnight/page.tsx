@@ -9,8 +9,9 @@ import { useState, useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Separator from "@/components/Separator";
-const Carroms = () => {
+const DJnight = () => {
   const [isLoading, setIsLoading] = useState(true);
+  const [redirecting, setRedirecting] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
@@ -34,6 +35,13 @@ const Carroms = () => {
     { name: "Vadla Vinay Sai", role: "President", phone: "7995991466" },
     { name: "Chella Sai Charan", role: "Vice President", phone: "7993605410" },
   ];
+  const handleRedirect = (link:string) => {
+    setRedirecting(true);
+    setTimeout(() => {
+      router.push(link);
+    }, 1500); // Delay to show the message
+  };
+
   return (
     <div className="relative min-h-screen flex flex-col items-center text-white overflow-hidden">
       {/* Meteor Effect */}
@@ -58,7 +66,6 @@ const Carroms = () => {
             <h1 className="text-4xl sm:text-5xl font-bold text-yellow-500 text-center mt-10">
               Dj night
             </h1>
-
 
             {/* Cards Section */}
             <motion.div
@@ -98,7 +105,7 @@ const Carroms = () => {
                         ))}
                       </ul>
                       <button
-                        onClick={() => router.push(category.link)}
+                        onClick={() => handleRedirect(category.link)}
                         className="mt-4 px-4 py-2 bg-green-500 text-white font-semibold rounded-lg shadow-md hover:bg-green-800 transition-colors"
                       >
                         Register Now
@@ -134,8 +141,18 @@ const Carroms = () => {
           <Footer/>
         </>
       )}
+      {redirecting && (
+        <div className="fixed inset-0 bg-black bg-opacity-80 flex justify-center items-center z-50">
+          <div className="text-center">
+            <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-yellow-500 mx-auto"></div>
+            <p className="mt-4 text-white text-lg font-semibold">
+              Redirecting to the ticketing platform Student Tribe...
+            </p>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
 
-export default Carroms;
+export default DJnight;
