@@ -17,9 +17,16 @@ const Carroms = () => {
   }, []);
   const categories = [
     {
-      category: "Double",
+      category: "Singles",
       details: [
         "Registration Fee: ₹500/-",
+      ],
+      link: "https://forms.gle/D1jC6vAm28GzvAiA7"
+    },
+    {
+      category: "Doubles",
+      details: [
+        "Registration Fee: ₹1000/-",
       ],
       link: "https://forms.gle/V6Ynp1izwb93dsZH7"
     }
