@@ -28,8 +28,6 @@ export default function Home() {
       ) : (
         <div className="w-screen">
           <HeroSection />
-          <UniformDJNight/>
-          <Separator/>
           <Uniformculturalgrid />
           <Separator />
           <Uniformoutdoorgames />
@@ -37,6 +35,8 @@ export default function Home() {
           <UniformIndoorgames />
           <Separator />
           <Uniformesport/>
+          <Separator/>
+          <UniformDJNight/>
           <Separator/>
           <FocusCardsDemo />
           <Separator />

@@ -22,7 +22,7 @@ const Chess = () => {
         "Note: Participants can be both men and women",
         "Registration Fee: ₹500/-",
       ],
-      link: "https://forms.gle/nrT5UGfwc9tPVAXq9"
+      link: "/ticket/chess"
     },
   ];
   const coordinators = [

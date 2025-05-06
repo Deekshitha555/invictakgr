@@ -9,21 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@stripe/stripe-js": "^7.3.0",
     "@tabler/icons-react": "^3.29.0",
     "clsx": "^2.1.1",
     "framer-motion": "^12.4.0",
     "lucide-react": "^0.475.0",
     "motion": "^12.4.1",
     "next": "15.1.6",
+    "nodemailer": "^7.0.2",
+    "razorpay": "^2.9.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.4.0",
     "simplex-noise": "^4.0.3",
+    "stripe": "^18.1.0",
     "tailwind-merge": "^3.0.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@types/node": "^20",
+    "@types/nodemailer": "^6.4.17",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",

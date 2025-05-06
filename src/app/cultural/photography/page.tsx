@@ -23,7 +23,7 @@ const Pixels = () => {
         "Note: Capture moments of invicta",
         "Registration Fee: ₹100/-",
       ],
-      link: "https://events.studenttribe.in/event/67cbee07884980a7269bf46f"
+       link: "/ticket/photography"
     },
     {
       category: "Short film(Group)",
@@ -33,7 +33,7 @@ const Pixels = () => {
         "Note: No limitation on the number of participants",
         "Registration Fee: ₹1500/-",
       ],
-      link: "https://events.studenttribe.in/event/67cbee07884980a7269bf46f"
+       link: "/ticket/photography"
     },
   ];
   const coordinators = [
@@ -157,7 +157,7 @@ const Pixels = () => {
                 <div className="text-center">
                   <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-yellow-500 mx-auto"></div>
                   <p className="mt-4 text-white text-lg font-semibold">
-                    Redirecting to the ticketing platform Student Tribe...
+                  Redirecting to the ticketing Page...
                   </p>
                 </div>
               </div>

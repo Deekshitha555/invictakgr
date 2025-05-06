@@ -27,7 +27,7 @@ const Music = () => {
         "Note: Participants has to get their own music tracks if required",
         "Registration Fee: ₹250/-",
       ],
-      link: "https://events.studenttribe.in/event/67cbee07884980a7269bf46f"
+      link: "/ticket/music"
     },
     {
       category: "Battle of Bands(Group)",
@@ -37,7 +37,7 @@ const Music = () => {
         "Note: Participants has to get their own instruments",
         "Registration Fee: ₹1000/-",
       ],
-      link: "https://events.studenttribe.in/event/67cbee07884980a7269bf46f"
+       link: "/ticket/music"
     },
   ];
   const coordinators = [
@@ -161,7 +161,7 @@ const Music = () => {
                 <div className="text-center">
                   <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-yellow-500 mx-auto"></div>
                   <p className="mt-4 text-white text-lg font-semibold">
-                    Redirecting to the ticketing platform Student Tribe...
+                  Redirecting to the ticketing Page...
                   </p>
                 </div>
               </div>

@@ -25,7 +25,7 @@ const Cricket = () => {
         "Note: Participants has to be in the color dress",
         "Registration Fee: ₹4500/-",
       ],
-      link: "https://docs.google.com/forms/d/e/1FAIpQLScLdqqhEJ0GSE1DbO0SpUSrOFKcDNtj5OXj48Mv35Mkwg5frg/viewform?usp=sharing"
+     link: "/ticket/cricket"
     },
   ];
   const coordinators = [

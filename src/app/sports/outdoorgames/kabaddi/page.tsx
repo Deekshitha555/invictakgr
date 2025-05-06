@@ -23,7 +23,7 @@ const Kabaddi = () => {
         "Note: Participants can be both men and women",
         "Registration Fee: ₹2000/-",
       ],
-      link: "https://forms.gle/XS93rY8AYqhKMkd1A"
+      link: "/ticket/kabaddi"
     },
   ];
   const coordinators = [

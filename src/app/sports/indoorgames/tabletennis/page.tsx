@@ -22,7 +22,7 @@ const Tabletennis = () => {
         "Note: Participants can be both men and women",
         "Registration Fee: ₹500/-",
       ],
-      link: "https://forms.gle/6VhQmXb4nQRZZSvn7"
+     link: "/ticket/tabletennis"
     },
   ];
   const coordinators = [

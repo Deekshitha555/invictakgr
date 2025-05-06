@@ -25,7 +25,7 @@ const Palette = () => {
         "Note: Team of 3",
         "Registration Fee: ₹250/-",
       ],
-      link: "https://events.studenttribe.in/event/67cbee07884980a7269bf46f",
+      link: "/ticket/arts"
     },
     {
       category: "Modern Monuments (Group)",
@@ -33,7 +33,7 @@ const Palette = () => {
         "Sketch challenge",
         "Registration Fee: ₹200/-",
       ],
-      link: "https://events.studenttribe.in/event/67cbee07884980a7269bf46f",
+      link: "/ticket/arts"
     },
   ];
   const coordinators = [
@@ -158,7 +158,7 @@ const Palette = () => {
           <div className="text-center">
             <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-yellow-500 mx-auto"></div>
             <p className="mt-4 text-white text-lg font-semibold">
-              Redirecting to the ticketing platform Student Tribe...
+              Redirecting to the ticketing Page...
             </p>
           </div>
         </div>

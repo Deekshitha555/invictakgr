@@ -22,7 +22,7 @@ const Dramatics = () => {
         "Time duration: 10 min",
         "Registration Fee: ₹200/-",
       ],
-      link: "https://events.studenttribe.in/event/67cbee07884980a7269bf46f"
+       link: "/ticket/dramatics"
     },
     {
       category: "Skit (Group)",
@@ -30,7 +30,7 @@ const Dramatics = () => {
         "Time duration: 15-20 min",
         "Registration Fee: ₹500/-",
       ],
-      link: "https://events.studenttribe.in/event/67cbee07884980a7269bf46f"
+        link: "/ticket/dramatics"
     },
   ];
   const coordinators = [
@@ -155,7 +155,7 @@ const Dramatics = () => {
           <div className="text-center">
             <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-yellow-500 mx-auto"></div>
             <p className="mt-4 text-white text-lg font-semibold">
-              Redirecting to the ticketing platform Student Tribe...
+            Redirecting to the ticketing Page...
             </p>
           </div>
         </div>

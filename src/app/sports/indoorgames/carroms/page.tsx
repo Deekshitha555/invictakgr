@@ -21,14 +21,14 @@ const Carroms = () => {
       details: [
         "Registration Fee: ₹500/-",
       ],
-      link: "https://forms.gle/D1jC6vAm28GzvAiA7"
+     link: "/ticket/carroms"
     },
     {
       category: "Doubles",
       details: [
         "Registration Fee: ₹1000/-",
       ],
-      link: "https://forms.gle/V6Ynp1izwb93dsZH7"
+     link: "/ticket/carroms"
     }
   ];
   const coordinators = [

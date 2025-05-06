@@ -23,7 +23,7 @@ const Deadlift = () => {
         "Note: weight categories: 59,66,74,83,93,93+",
         "Registration Fee: ₹500/-",
       ],
-      link: "https://forms.gle/z7g4osrTAnEwBwBa9"
+     link: "/ticket/deadlift"
     },
     {
       category: "Solo(Women)",
@@ -32,7 +32,7 @@ const Deadlift = () => {
         "2 strong women will be elected",
         "Registration Fee: ₹500/-",
       ],
-      link: "https://forms.gle/z7g4osrTAnEwBwBa9"
+     link: "/ticket/deadlift"
     },
   ];
   const coordinators = [

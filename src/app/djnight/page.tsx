@@ -146,7 +146,7 @@ const DJnight = () => {
           <div className="text-center">
             <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-yellow-500 mx-auto"></div>
             <p className="mt-4 text-white text-lg font-semibold">
-              Redirecting to the ticketing platform Student Tribe...
+            Redirecting to the ticketing Page...
             </p>
           </div>
         </div>

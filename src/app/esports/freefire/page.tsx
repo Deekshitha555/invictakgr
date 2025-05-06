@@ -22,7 +22,7 @@ const Carroms = () => {
         "Note: Team size should be 3 or 4 only",
         "Entry Fee: ₹200/-",
       ],
-      link: "https://docs.google.com/forms/d/e/1FAIpQLSdPZLNVp43SoG5u3CT7rIi18YtMoG_7PpLZqucluzVgHd0cFQ/viewform?usp=sharing"
+     link: "/ticket/freefire"
     },
   ];
   const coordinators = [

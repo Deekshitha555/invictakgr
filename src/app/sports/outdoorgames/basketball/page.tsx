@@ -24,7 +24,7 @@ const Basketball = () => {
         "Note: Participants can be both men and women",
         "Registration Fee: ₹2000/-",
       ],
-      link: "https://forms.gle/5mjixBNCki6SjXpD7"
+     link: "/ticket/basketball"
     },
   ];
   const coordinators = [

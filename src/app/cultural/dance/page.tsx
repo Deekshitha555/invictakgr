@@ -26,7 +26,7 @@ const Onthebeat = () => {
         "Participants are supposed to get their music track",
         "Registration Fee: ₹200/-",
       ],
-      link: "https://events.studenttribe.in/event/67cbee07884980a7269bf46f"
+      link: "/ticket/dance"
     },
     {
       category: "Duo/Duet",
@@ -36,7 +36,7 @@ const Onthebeat = () => {
         "Participants are supposed to get their music track",
         "Registration Fee: ₹300/-",
       ],
-      link: "https://events.studenttribe.in/event/67cbee07884980a7269bf46f"
+        link: "/ticket/dance"
     },
     {
       category: "Group (3-7)",
@@ -46,7 +46,7 @@ const Onthebeat = () => {
         "Participants are supposed to get their music track",
         "Registration Fee: ₹500/- (Per Group)",
       ],
-      link: "https://events.studenttribe.in/event/67cbee07884980a7269bf46f"
+        link: "/ticket/dance"
     },
   ];
   const coordinators = [
@@ -171,7 +171,7 @@ const Onthebeat = () => {
                 <div className="text-center">
                   <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-yellow-500 mx-auto"></div>
                   <p className="mt-4 text-white text-lg font-semibold">
-                    Redirecting to the ticketing platform Student Tribe...
+                  Redirecting to the ticketing Page...
                   </p>
                 </div>
               </div>
